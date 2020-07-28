@@ -5,9 +5,10 @@
 package net
 
 import (
-	"internal/poll"
 	"io"
 	"os"
+
+	"github.com/zgordan-vv/net/internal/poll"
 )
 
 // sendFile copies the contents of r to c using the sendfile

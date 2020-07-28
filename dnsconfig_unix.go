@@ -9,10 +9,11 @@
 package net
 
 import (
-	"internal/bytealg"
 	"os"
 	"sync/atomic"
 	"time"
+
+	"github.com/zgordan-vv/net/internal/bytealg"
 )
 
 var (

@@ -5,8 +5,9 @@
 package net
 
 import (
-	"internal/poll"
 	"io"
+
+	"github.com/zgordan-vv/net/internal/poll"
 )
 
 // splice transfers data from r to c using the splice system call to minimize

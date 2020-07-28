@@ -8,9 +8,10 @@ package net
 
 import (
 	"context"
-	"internal/poll"
 	"os"
 	"syscall"
+
+	"github.com/zgordan-vv/net/internal/poll"
 )
 
 // socket returns a network file descriptor that is ready for

@@ -8,11 +8,12 @@ package net
 
 import (
 	"context"
-	"internal/poll"
 	"os"
 	"runtime"
 	"syscall"
 	"time"
+
+	"github.com/zgordan-vv/net/internal/poll"
 )
 
 // Network file descriptor.

@@ -8,10 +8,11 @@
 package net
 
 import (
-	"internal/bytealg"
 	"io"
 	"os"
 	"time"
+
+	"github.com/zgordan-vv/net/internal/bytealg"
 )
 
 type file struct {

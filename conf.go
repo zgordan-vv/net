@@ -7,11 +7,12 @@
 package net
 
 import (
-	"internal/bytealg"
 	"os"
 	"runtime"
 	"sync"
 	"syscall"
+
+	"github.com/zgordan-vv/net/internal/bytealg"
 )
 
 // conf represents a system's network configuration.

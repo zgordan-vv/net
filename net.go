@@ -81,12 +81,13 @@ package net
 import (
 	"context"
 	"errors"
-	"internal/poll"
 	"io"
 	"os"
 	"sync"
 	"syscall"
 	"time"
+
+	"github.com/zgordan-vv/net/internal/poll"
 )
 
 // netGo and netCgo contain the state of the build tags used

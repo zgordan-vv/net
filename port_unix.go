@@ -9,8 +9,9 @@
 package net
 
 import (
-	"internal/bytealg"
 	"sync"
+
+	"github.com/zgordan-vv/net/internal/bytealg"
 )
 
 var onceReadServices sync.Once

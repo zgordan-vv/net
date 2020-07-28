@@ -10,9 +10,10 @@
 package net
 
 import (
-	"internal/poll"
 	"os"
 	"syscall"
+
+	"github.com/zgordan-vv/net/internal/poll"
 )
 
 // Wrapper around the socket system call that marks the returned file

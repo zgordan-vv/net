@@ -7,9 +7,10 @@
 package net
 
 import (
-	"internal/poll"
 	"os"
 	"syscall"
+
+	"github.com/zgordan-vv/net/internal/poll"
 )
 
 func dupSocket(f *os.File) (int, error) {

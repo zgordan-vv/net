@@ -5,9 +5,10 @@
 package net
 
 import (
-	"internal/bytealg"
 	"sync"
 	"time"
+
+	"github.com/zgordan-vv/net/internal/bytealg"
 )
 
 const cacheMaxAge = 5 * time.Second

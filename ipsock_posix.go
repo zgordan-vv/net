@@ -8,9 +8,10 @@ package net
 
 import (
 	"context"
-	"internal/poll"
 	"runtime"
 	"syscall"
+
+	"github.com/zgordan-vv/net/internal/poll"
 )
 
 // Probe probes IPv4, IPv6 and IPv4-mapped IPv6 communication

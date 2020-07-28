@@ -8,11 +8,11 @@ package net
 
 import (
 	"context"
-	"internal/bytealg"
 	"sync"
 	"syscall"
 
-	"internal/x/net/dns/dnsmessage"
+	"github.com/zgordan-vv/net/internal/bytealg"
+	"github.com/zgordan-vv/net/internal/x/net/dns/dnsmessage"
 )
 
 var onceReadProtocols sync.Once

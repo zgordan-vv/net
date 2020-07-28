@@ -6,10 +6,11 @@ package net
 
 import (
 	"context"
-	"internal/nettrace"
-	"internal/poll"
 	"syscall"
 	"time"
+
+	"github.com/zgordan-vv/net/internal/nettrace"
+	"github.com/zgordan-vv/net/internal/poll"
 )
 
 // A Dialer contains options for connecting to an address.

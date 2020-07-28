@@ -7,9 +7,10 @@
 package net
 
 import (
-	"internal/bytealg"
 	"runtime"
 	"syscall"
+
+	"github.com/zgordan-vv/net/internal/bytealg"
 )
 
 // Boolean to int.

@@ -6,9 +6,10 @@ package net
 
 import (
 	"context"
-	"internal/nettrace"
-	"internal/singleflight"
 	"sync"
+
+	"github.com/zgordan-vv/net/internal/nettrace"
+	"github.com/zgordan-vv/net/internal/singleflight"
 )
 
 // protocols contains minimal mappings between internet protocol

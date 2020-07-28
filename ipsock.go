@@ -6,8 +6,9 @@ package net
 
 import (
 	"context"
-	"internal/bytealg"
 	"sync"
+
+	"github.com/zgordan-vv/net/internal/bytealg"
 )
 
 // BUG(rsc,mikio): On DragonFly BSD and OpenBSD, listening on the

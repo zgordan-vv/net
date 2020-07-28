@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"internal/x/net/dns/dnsmessage"
+	"github.com/zgordan-vv/net/internal/x/net/dns/dnsmessage"
 )
 
 var (
